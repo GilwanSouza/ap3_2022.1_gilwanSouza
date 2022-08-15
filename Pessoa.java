@@ -1,6 +1,6 @@
-pacote  com . br . ap3 . gilwanSouza ;
+pacote  com . br . ap3 . gilwanSouza ;//ta errado
 
-classe  pública Pessoa {
+classe  pública Pessoa { //ta errado
     nome da string  privada ;
     idade int  privada ;
 
