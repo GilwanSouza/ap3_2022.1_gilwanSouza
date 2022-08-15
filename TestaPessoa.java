@@ -1,5 +1,7 @@
+package com.br.ap3.gilwanSouza;
+
 public  class  TestePessoa {
     public  static  void  main ( String [] args ) {
-        Sistema . fora . println ( " Olá, java " );
+        System.out.println("Olá, java");
     }
 }
