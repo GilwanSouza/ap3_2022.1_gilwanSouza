@@ -18,6 +18,7 @@ public class Contato {
     public String getNome() {
         return nome;
     }
+
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -25,6 +26,7 @@ public class Contato {
     public String getEmail() {
         return email;
     }
+
     public void setIEmail(String email) {
         this.email = email;
     }
@@ -32,6 +34,7 @@ public class Contato {
     public String getTelefone() {
         return telefone;
     }
+
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
@@ -39,16 +42,17 @@ public class Contato {
     public LocalDate getDataDeNascimento() {
         return dataDeNascimento;
     }
+
     public void setDadaDeNascimento(LocalDate datadeNascimento) {
         this.dataDeNascimento = datadeNascimento;
     }
 
     @Override
     public String toString() {
-        return  "Contatos"             +
-        "\nNome = "                    + nome                 +
-        "\nEmail = "                   + email                +
-        "\nTelefone = "                + telefone             +
-        "\nData de Nascimento = "      + dataDeNascimento.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) + "\n"; 
+        return "Contatos" +
+                "\nNome = " + nome +
+                "\nEmail = " + email +
+                "\nTelefone = " + telefone +
+                "\nData de Nascimento = " + dataDeNascimento.format(DateTimeFormatter.ofPattern("dd/MM/yyyy")) + "\n";
     }
 }

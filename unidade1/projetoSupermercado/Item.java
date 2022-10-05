@@ -1,5 +1,3 @@
-package br.com.gilwansouza.ap3.aula5.projetosupermercado.classes;
-
 public class Item {
 
     private Produto produto;

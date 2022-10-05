@@ -36,10 +36,10 @@ public class TestaContato {
 
         osContatos.forEach(System.out::println);
         /*
-        for (Contato contato : osContatos) {
-            System.out.println(contato);
-        }
-        */
+         * for (Contato contato : osContatos) {
+         * System.out.println(contato);
+         * }
+         */
         entrada.close();
     }
 }

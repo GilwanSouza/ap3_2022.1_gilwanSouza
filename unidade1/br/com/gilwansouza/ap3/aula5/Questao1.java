@@ -1,4 +1,4 @@
-package br.com.gilwansouza.ap3;
+package unidade1.br.com.gilwansouza.ap3;
 
 import java.util.Scanner;
 

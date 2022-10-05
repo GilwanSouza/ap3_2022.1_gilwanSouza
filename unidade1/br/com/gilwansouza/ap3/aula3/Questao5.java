@@ -1,12 +1,13 @@
 package com.br.ap3.gilwanSouza;
 
-public class Caneta {
+public class Questao5 {
+    //caneta
     private String Modelo;
     private int numDaPonta;
     private int nivelTinta;
-    private int tampada;
+    private boolean tampada;
     private int destampada;
-    private int cor;
+    private String cor;
 
     public String getModelo() {
         return this.Modelo;
@@ -38,14 +39,6 @@ public class Caneta {
 
     public void settampada(Boolean tampada) {
         this.tampada = tampada;
-    }
-
-    public boolean getdestampada() {
-        return this.destampada;
-    }
-
-    public void setdestampada(Boolean destampada) {
-        this.destampada = destampada;
     }
 
     public String getcor() {

@@ -1,11 +1,6 @@
-package br.com.gilwansouza.ap3.aula5.projetosupermercado;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import br.com.gilwansouza.ap3.aula5.projetosupermercado.classes.Item;
-import br.com.gilwansouza.ap3.aula5.projetosupermercado.classes.Pedido;
-import br.com.gilwansouza.ap3.aula5.projetosupermercado.classes.Produto;
 
 public class TestaSupermercado {
 
@@ -23,6 +18,7 @@ public class TestaSupermercado {
         while (asCompras.size() < 5) {
             Item itemSupermercado = new Item("\nDiga qual item está sendo comprado");
             item_comprado = input.nextLine();
+            //Ta errado. falta colocar o que o usuário digitou dentro do itemSupermercado
 
             Pedido valorProduto = new Pedido("\n Diga qual item está sendo comprado");
             valor = input.nextDouble();
@@ -33,7 +29,7 @@ public class TestaSupermercado {
             asCompras.add(Compra);
         }
 
-        asCompras.forEach(System.out::println);
+        asCompras.forEach(System.out::println); //bacana!
 
         input.close();
     }

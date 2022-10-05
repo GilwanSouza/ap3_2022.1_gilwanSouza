@@ -12,19 +12,19 @@ public class Questao4 {
 
         int vet[] = new int[30];
 
-        for (int i = 0; i < valor.length; i++) {
+        for (int i = 0; i < vet.length; i++) {
             System.out.println("Insira um valor:");
 
             vet[i] = input.nextInt();
         }
 
-        for (int i = 0; i < valor.length; i++) {
+        for (int i = 0; i < vet.length; i++) {
             if (vet[i] == 7) {
                 vet[i] = -7;
             }
         }
 
-        for (int i = 0; i < valor.length; i++) {
+        for (int i = 0; i < vet.length; i++) {
             System.out.println("Resultado: " + vet[i]);
 
         }
